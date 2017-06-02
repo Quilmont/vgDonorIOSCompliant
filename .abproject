@@ -1,0 +1,69 @@
+{
+  "ProjectName": "v9_village_group",
+  "ProjectGuid": "745b76b2-982f-42fb-9ee0-71c34e7dd7bd",
+  "projectVersion": 1,
+  "AppIdentifier": "com.quilmont.villagegroup",
+  "DisplayName": "Village Group Mobile Participants",
+  "Author": "Quilmont Solutions",
+  "Description": "VG",
+  "BundleVersion": "1.1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [
+    "remote-notification"
+  ],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{95c5fe2a-1eaf-4dfd-a881-d4abed52719a}",
+  "WP8ProductID": "{333578df-fb9b-4614-b93d-9bd3acf15803}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.v9villagegroup",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CordovaPluginVariables": {},
+  "CorePlugins": [
+    "com.phonegap.plugins.PushPlugin@3.2.0",
+    "cordova-plugin-camera",
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
+    "cordova-plugin-device-motion",
+    "cordova-plugin-device-orientation",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-file",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-globalization",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-media",
+    "cordova-plugin-media-capture",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration",
+    "cordova-plugin-whitelist",
+    "org.apache.cordova.labs.keyboard"
+  ]
+}

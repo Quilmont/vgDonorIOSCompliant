@@ -1,0 +1,176 @@
+{
+  "type": "kendo-ui-mobile",
+  "views": [
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "home",
+      "components": [],
+      "title": "Welcome",
+      "addToNavigation": true,
+      "icon": "bookmarks"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "communicationView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "homeview",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Home",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "32px-Home_Icon.svg.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "aboutus",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "About Us",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "Group_full.svg.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "image",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Calendar",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "32px-Blank_Calendar_page_icon.svg.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "programs",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Our Programs",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "rsz_footer-logo-small.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "volunteer",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Volunteer",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "rsz_volunteer-logo-27719_960_720.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "donate",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Donate",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "Ic_wallet_giftcard_48px.svg.png"
+                }
+              ],
+              "name": "editableListForm2",
+              "formType": "add"
+            }
+          ],
+          "name": "communicationViewModel",
+          "enableDataBinding": false
+        }
+      ],
+      "title": "TVG",
+      "addToNavigation": true,
+      "icon": "sounds"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "socialmedView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "facebook",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Facebook",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "facebooklogo.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "twitter",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Twitter",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "Twitter_logo_initial.png"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "instagram",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Instagram",
+                  "inputType": "image",
+                  "titlePosition": "left",
+                  "alignment": "right",
+                  "imageUpload": "instagram_logo_2016-svg.png"
+                }
+              ],
+              "name": "editableListForm3",
+              "formType": "add"
+            }
+          ],
+          "name": "socialmedViewModel",
+          "enableDataBinding": false
+        }
+      ],
+      "title": "Social Media",
+      "addToNavigation": true,
+      "icon": "share"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "media",
+      "components": [],
+      "title": "Media",
+      "addToNavigation": true,
+      "icon": "camera"
+    }
+  ],
+  "dataProviders": [],
+  "name": "kendoUiMobileApp",
+  "navigation": "tabstrip",
+  "view": "home",
+  "transition": "slide",
+  "showMoreTab": true,
+  "skin": "nova",
+  "skinMainColor": "#32364c",
+  "skinTextColor": "#ffffff",
+  "skinAccentColor": "#ff4350"
+}

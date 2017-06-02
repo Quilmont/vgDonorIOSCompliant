@@ -1,0 +1,97 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.socialmedView" data-show="app.socialmedView.onShow" data-after-show="app.socialmedView.afterShow" id="socialmedViewScreen" class="screen">
+    <div id="socialmedViewModel" class="form-view screen__content screen__content--form add-item-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li class="form-content-item">
+
+
+                    <div id="facebookField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.socialmedView.socialmedViewModel.editableListForm3.facebook.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/facebooklogo.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="twitterField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.socialmedView.socialmedViewModel.editableListForm3.twitter.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/Twitter_logo_initial.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="instagramField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.socialmedView.socialmedViewModel.editableListForm3.instagram.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/instagram_logo_2016-svg.png">
+
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="button-group">
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_socialmedViewModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_socialmedViewModel -->
+    </div>
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.socialmedView.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_socialmedView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("facebookField").onclick = function() {
+                openFB();
+            };
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("twitterField").onclick = function() {
+                openTwitter();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("instagramField").onclick = function() {
+                openInsta();
+            };
+        })();
+    </script>
+    <!-- END_CUSTOM_CODE_socialmedView -->
+</div>

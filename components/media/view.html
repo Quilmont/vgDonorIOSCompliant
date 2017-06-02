@@ -1,0 +1,43 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.media" data-show="app.media.onShow" data-after-show="app.media.afterShow" id="mediaScreen" class="screen">
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.media.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_media -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+    <div>
+        <center>
+            <h2>Add Photos or Videos to Our Online Gallery</h2> </center>
+        <center> <img src="http://thevillagegroup.org/wp-content/themes/the-village-group-skeleton/images/home/footer-logo-small.png"></center>
+    </div>
+    <div class="subheader">
+        <div class="row">
+            <div class="col">
+                <button class="button " id="captureVideo">Take Video</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="button" id="captureImage">Take Photo</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button onclick="openDB()" class="button " id="uploadMedia">Upload Media</button>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="media"></div>
+    </div>
+
+    <script type="text/javascript">
+        onMediaReady();
+    </script>
+    <!-- END_CUSTOM_CODE_media -->
+</div>

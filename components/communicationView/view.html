@@ -1,0 +1,171 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.communicationView" data-show="app.communicationView.onShow" data-after-show="app.communicationView.afterShow" id="communicationViewScreen" class="screen">
+    <div id="communicationViewModel" class="form-view screen__content screen__content--form add-item-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li class="form-content-item">
+
+
+                    <div id="homeviewField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.homeview.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/32px-Home_Icon.svg.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="aboutusField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.aboutus.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/Group_full.svg.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="imageField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.image.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/32px-Blank_Calendar_page_icon.svg.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="programsField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.programs.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/rsz_footer-logo-small.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="volunteerField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.volunteer.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/rsz_volunteer-logo-27719_960_720.png">
+
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="donateField" class="field field--image imageListItem">
+
+                        <div class="field__label" data-bind="text: strings.communicationView.communicationViewModel.editableListForm2.donate.title"></div>
+
+                        <div class="align-right field__content">
+
+
+                            <img src="resources/Ic_wallet_giftcard_48px.svg.png">
+
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="button-group">
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_communicationViewModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_communicationViewModel -->
+    </div>
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.communicationView.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_communicationView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("homeviewField").onclick = function() {
+                openHome();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("imageField").onclick = function() {
+                openCal();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("aboutusField").onclick = function() {
+                openAbout();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("donateField").onclick = function() {
+                openDonate();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("volunteerField").onclick = function() {
+                openVol();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            document.getElementById("programsField").onclick = function() {
+                openPrograms();
+            };
+        })();
+    </script>
+
+    <!-- END_CUSTOM_CODE_communicationView -->
+</div>

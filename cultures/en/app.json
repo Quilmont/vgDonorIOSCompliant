@@ -1,0 +1,54 @@
+{
+  "_app": {
+    "navigationMore": "More",
+    "showMoreTitle": "Show More",
+    "qrCodeScan": "Scan"
+  },
+  "home": {
+    "title": "Welcome"
+  },
+  "communicationView": {
+    "title": "TVG",
+    "communicationViewModel": {
+      "editableListForm2": {
+        "homeview": {
+          "title": "Home"
+        },
+        "aboutus": {
+          "title": "About Us"
+        },
+        "image": {
+          "title": "Calendar"
+        },
+        "programs": {
+          "title": "Our Programs"
+        },
+        "volunteer": {
+          "title": "Volunteer"
+        },
+        "donate": {
+          "title": "Donate"
+        }
+      }
+    }
+  },
+  "socialmedView": {
+    "title": "Social Media",
+    "socialmedViewModel": {
+      "editableListForm3": {
+        "facebook": {
+          "title": "Facebook"
+        },
+        "twitter": {
+          "title": "Twitter"
+        },
+        "instagram": {
+          "title": "Instagram"
+        }
+      }
+    }
+  },
+  "media": {
+    "title": "Media"
+  }
+}
